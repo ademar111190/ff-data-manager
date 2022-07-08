@@ -1,0 +1,15 @@
+{
+  "app_title": "datamanager",
+  "home_page_title": "Fantastic Football Data Manager",
+  "home_page_counter": "{times,plural, =0{You haven't pushed the button yet} =1{You have pushed the button one time} other{You have pushed the button {times} times}",
+  "@home_page_counter": {
+    "placeholders": {
+      "times": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "home_page_increment": "Increment",
+  "locale": "en"
+}

@@ -1,0 +1,15 @@
+{
+  "app_title": "datamanager",
+  "home_page_title": "Gerenciador de dados do Futebol Fantástico",
+  "home_page_counter": "{times,plural, =0{Você não pressionou o botão ainda} =1{Você pressionou o botão uma vez} other{Você pressionou o botão {times} vezes}",
+  "@home_page_counter": {
+    "placeholders": {
+      "times": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "home_page_increment": "Incrementar",
+  "locale": "pt"
+}
