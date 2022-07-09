@@ -1,5 +1,11 @@
 {
   "app_title": "datamanager",
+  "localized_text_item_dialog_title": "Editing localized text",
+  "localized_text_item_dialog_locale": "Locale",
+  "localized_text_item_dialog_locale_error": "Invalid Locale",
+  "localized_text_item_dialog_text": "Text",
+  "localized_text_item_dialog_action_cancel": "Cancel",
+  "localized_text_item_dialog_action_confirm": "Save",
   "home_page_title": "Fantastic Football Data Manager",
   "home_page_counter": "{times,plural, =0{You haven't pushed the button yet} =1{You have pushed the button one time} other{You have pushed the button {times} times}",
   "@home_page_counter": {
@@ -11,5 +17,75 @@
     }
   },
   "home_page_increment": "Increment",
+  "world_page_title": "Worlds",
+  "world_page_empty": "No worlds yet, press the + button to add one",
+  "world_page_limit": "Max number of worlds reached",
+  "world_page_add": "Add world",
+  "world_page_error_title": "Error",
+  "world_name_error": "Add at least one valid name",
+  "world_name_default": "Localized name: {name}",
+  "@world_name_default": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "A name"
+      }
+    }
+  },
+  "world_nick_name_error": "Add at least one valid nick name",
+  "world_nick_name_default": "Localized nick name: {nickName}",
+  "@world_nick_name_default": {
+    "placeholders": {
+      "nickName": {
+        "type": "String",
+        "example": "A nick name"
+      }
+    }
+  },
+  "world_name_key": "Language: {language}",
+  "@world_name_key": {
+    "placeholders": {
+      "language": {
+        "type": "String",
+        "example": "PT_br"
+      }
+    }
+  },
+  "world_name_value": "Name {name}",
+  "@world_name_value": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "A name"
+      }
+    }
+  },
+  "world_page_add_name": "Add Name",
+  "world_nick_name_key": "Language: {language}",
+  "@world_nick_name_key": {
+    "placeholders": {
+      "language": {
+        "type": "String",
+        "example": "PT_br"
+      }
+    }
+  },
+  "world_nick_name_value": "Nickname {nickName}",
+  "@world_nick_name_value": {
+    "placeholders": {
+      "nickName": {
+        "type": "String",
+        "example": "A name"
+      }
+    }
+  },
+  "world_page_add_nick_name": "Add Nickname",
+  "world_page_action_cancel": "Cancel",
+  "world_page_action_cancel_confirmation_title": "Are you sure?",
+  "world_page_action_cancel_confirmation_message": "The edited data will be lost",
+  "world_page_action_cancel_confirmation_do_not_cancel": "Back to edition",
+  "world_page_action_cancel_confirmation_yes_cancel_as_im_saying": "Yes discard changes",
+  "world_page_action_save": "Save",
+  "world_page_action_ok": "OK",
   "locale": "en"
 }

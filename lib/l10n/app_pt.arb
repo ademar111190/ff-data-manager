@@ -1,5 +1,11 @@
 {
   "app_title": "datamanager",
+  "localized_text_item_dialog_title": "Editando texto localizado",
+  "localized_text_item_dialog_locale": "Local",
+  "localized_text_item_dialog_locale_error": "Local Inválido",
+  "localized_text_item_dialog_text": "Texto",
+  "localized_text_item_dialog_action_cancel": "Cancelar",
+  "localized_text_item_dialog_action_confirm": "Salvar",
   "home_page_title": "Gerenciador de dados do Futebol Fantástico",
   "home_page_counter": "{times,plural, =0{Você não pressionou o botão ainda} =1{Você pressionou o botão uma vez} other{Você pressionou o botão {times} vezes}",
   "@home_page_counter": {
@@ -11,5 +17,75 @@
     }
   },
   "home_page_increment": "Incrementar",
+  "world_page_title": "Mundos",
+  "world_page_empty": "Não há mundos ainda, precione o botão + para adicionar um",
+  "world_page_limit": "Numero máximo de mundos atingido",
+  "world_page_add": "Adicionar Mundo",
+  "world_page_error_title": "Erro",
+  "world_name_error": "Adicione ao menos um nome válido",
+  "world_name_default": "Nome localizado: {name}",
+  "@world_name_default": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "A name"
+      }
+    }
+  },
+  "world_nick_name_error": "Adicione ao menos uma alcunha válida",
+  "world_nick_name_default": "Alcunha localizada: {nickName}",
+  "@world_nick_name_default": {
+    "placeholders": {
+      "nickName": {
+        "type": "String",
+        "example": "A nick name"
+      }
+    }
+  },
+  "world_name_key": "Idioma: {language}",
+  "@world_name_key": {
+    "placeholders": {
+      "language": {
+        "type": "String",
+        "example": "PT_br"
+      }
+    }
+  },
+  "world_name_value": "Nome {name}",
+  "@world_name_value": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "A name"
+      }
+    }
+  },
+  "world_page_add_name": "Adicionar Nome",
+  "world_nick_name_key": "Idioma: {language}",
+  "@world_nick_name_key": {
+    "placeholders": {
+      "language": {
+        "type": "String",
+        "example": "PT_br"
+      }
+    }
+  },
+  "world_nick_name_value": "Alcunha {nickName}",
+  "@world_nick_name_value": {
+    "placeholders": {
+      "nickName": {
+        "type": "String",
+        "example": "A name"
+      }
+    }
+  },
+  "world_page_add_nick_name": "Adicionar Alcunha",
+  "world_page_action_cancel": "Cancelar",
+  "world_page_action_cancel_confirmation_title": "Você tem certeza?",
+  "world_page_action_cancel_confirmation_message": "Os dados editados serão descartados",
+  "world_page_action_cancel_confirmation_do_not_cancel": "Voltar para a edição",
+  "world_page_action_cancel_confirmation_yes_cancel_as_im_saying": "Ok, descartar as alterações",
+  "world_page_action_save": "Salvar",
+  "world_page_action_ok": "OK",
   "locale": "pt"
 }

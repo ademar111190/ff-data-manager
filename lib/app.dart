@@ -1,6 +1,6 @@
 import 'package:datamanager/l10n/build_context_localizations.dart';
 import 'package:datamanager/l10n/locales.dart';
-import 'package:datamanager/page/home_page.dart';
+import 'package:datamanager/page/world/world_page.dart';
 import 'package:flutter/material.dart';
 
 class DataManagerApp extends StatelessWidget {
@@ -17,7 +17,7 @@ class DataManagerApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomePage(),
+      home: const WorldPage(),
     );
   }
 }

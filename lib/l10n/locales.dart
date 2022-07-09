@@ -18,15 +18,11 @@ Iterable<LocalizationsDelegate<dynamic>> localizationsDelegates() {
 Iterable<Locale> supportedLocales() {
   return [
     const Locale('en', ''),
-    const Locale('es', ''),
-    const Locale('fi', ''),
-    const Locale('fr', ''),
     const Locale('pt', ''),
   ];
 }
 
-Locale getSystemLocale() {
-  final localeName = Platform.localeName;
+Locale fromLocaleName(String localeName) {
   if (localeName.contains("_")) {
     final pieces = localeName.split("_");
     return Locale(pieces[0], pieces[1]);
@@ -34,6 +30,8 @@ Locale getSystemLocale() {
     return Locale(localeName);
   }
 }
+
+Locale getSystemLocale() => fromLocaleName(Platform.localeName);
 
 /// prefer the traditional AppLocalizations.of(context) instead of this method.
 /// The only reason to add this method is the lack of official method to access
