@@ -6,17 +6,16 @@
   "localized_text_item_dialog_text": "Text",
   "localized_text_item_dialog_action_cancel": "Cancel",
   "localized_text_item_dialog_action_confirm": "Save",
-  "home_page_title": "Fantastic Football Data Manager",
-  "home_page_counter": "{times,plural, =0{You haven't pushed the button yet} =1{You have pushed the button one time} other{You have pushed the button {times} times}",
-  "@home_page_counter": {
-    "placeholders": {
-      "times": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
-  "home_page_increment": "Increment",
+  "bundle_page_title": "Bundles",
+  "bundle_page_empty": "No bundle yet, click \"New\" to start a new bundle or click \"Import\" to import a .ff bundle.",
+  "bundle_page_action_new": "New",
+  "bundle_page_action_import": "Import",
+  "bundle_page_new_name_title": "Choose a name for your new bundle",
+  "bundle_creation_dialog_name_label": "Bundle name",
+  "bundle_page_new_name_error_empty": "Please enter a name",
+  "bundle_page_new_name_error_used": "This name is already used",
+  "bundle_page_new_name_action_cancel": "Cancel",
+  "bundle_page_new_name_action_continue": "Continue",
   "world_page_title": "Worlds",
   "world_page_empty": "No worlds yet, press the + button to add one",
   "world_page_limit": "Max number of worlds reached",

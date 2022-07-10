@@ -6,17 +6,16 @@
   "localized_text_item_dialog_text": "Texto",
   "localized_text_item_dialog_action_cancel": "Cancelar",
   "localized_text_item_dialog_action_confirm": "Salvar",
-  "home_page_title": "Gerenciador de dados do Futebol Fantástico",
-  "home_page_counter": "{times,plural, =0{Você não pressionou o botão ainda} =1{Você pressionou o botão uma vez} other{Você pressionou o botão {times} vezes}",
-  "@home_page_counter": {
-    "placeholders": {
-      "times": {
-        "type": "int",
-        "example": "2"
-      }
-    }
-  },
-  "home_page_increment": "Incrementar",
+  "bundle_page_title": "Pacotes",
+  "bundle_page_empty": "Nenhum pacote ainda, toque em \"Novo\" para criar um novo pacote ou em \"Importar\" para importar um pacote em formato .ff.",
+  "bundle_page_action_new": "Novo",
+  "bundle_page_action_import": "Importar",
+  "bundle_page_new_name_title": "Escolha um novo nome para o pacote",
+  "bundle_creation_dialog_name_label": "Nome do pacote",
+  "bundle_page_new_name_error_empty": "Por favor, escolha um nome para o pacote",
+  "bundle_page_new_name_error_used": "Este nome já está em uso",
+  "bundle_page_new_name_action_cancel": "Cancelar",
+  "bundle_page_new_name_action_continue": "Continuar",
   "world_page_title": "Mundos",
   "world_page_empty": "Não há mundos ainda, precione o botão + para adicionar um",
   "world_page_limit": "Numero máximo de mundos atingido",
